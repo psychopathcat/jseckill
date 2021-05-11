@@ -20,19 +20,6 @@
 
 <code>jseckill</code>:Seckill website implemented with Java, based on Spring Boot 2.X.
 
-**谢谢您对本项目的支持** <br/>
-**请点击此处进行**[Star](https://github.com/bootsrc/jseckill/stargazers)
-
-
-**GitHub** 地址为[https://github.com/bootsrc/jseckill](https://github.com/bootsrc/jseckill)
-
-建议访问GitHub以获取更多分布式项目源码[https://github.com/bootsrc?tab=repositories](https://github.com/bootsrc?tab=repositories)
-
-
-## 演示
-**点击进入演示**：[http://jseckill.appjishu.com](http://jseckill.appjishu.com)
-
-注意：提升输入手机号时，随便输入一个11位的数字即可，**不需要填自己的真实手机号**
 
 效果图
 
@@ -91,29 +78,6 @@
 详情见源码文档
 
 
-## QuickStart
-- clone源码
-
-<code>git clone https://github.com/liushaoming/jseckill.git </code>
-
-- 在Intelij IDEA/eclipse里导入根路径下的pom.xml，再导入文件夹jseckill-backend下面的pom.xml, 等待maven依赖下载完毕
-详细操作：
-
-**如果是IDEA**，先IDEA | File | Open...，选择jseckill根路径下的pom文件, Open as project以导入根项目jseckill。
-
-操作菜单栏 View | Tool Windows | Maven Projects。 点击"+"， 添加jseckill-backend下面的pom。
-
-此时Maven Projects下面有根项目jseckill和jseckill-backend。如下图
-
-![](doc/image/quickstart-0.png)
-
-**如果是Eclipse**, import导入maven项目，勾选jseckil和jseckill-backend下面共两个pom文件即可。
-
-- 修改application.properties里面的自己的Redis,MySQL,Zookeeper,RabbitMQ的连接配置
-
-- 右键JseckillBackendApp.java--run as--Java Application
-
-开始Debug
 
 ## 源码解析    
 👉 [进入源码解析](SOURCE-README.md)
@@ -244,35 +208,5 @@ rabbitmq.virtual-host配置错误
 * [jseckill运行了一段时间后，发现进程是活的端口也是通的，但是网页访问返回504 Gateway Time-out](/doc/readme/app-die.md)
 
 
-## 做贡献
-特別鸣谢一下对开源项目作出贡献的开发者
 
-| 序号 | 开发者GitHub | QQ | 邮箱 |
-| :-------: | :-------- | :-------: | :-------- |
-| 1 | [liushaoming](https://github.com/liushaoming) | 944147540 | [liushaomingdev@163.com](mailto:liushaomingdev@163.com) |
-
-
-## 联系作者
-|  联系方式 |  |
-| :-------- | :-------- |
-| **Leader** | liushaoming |
-| email | [liushaomingdev@163.com](mailto:liushaomingdev@163.com) |
-| QQ群2 | 1043200253 |
-| QQ群1(已满) | 612871570 |
-
-
-加QQ群讨论 <br/>
-qq群号 1043200253
-<br/>
-![](doc/image/qqgroup-2.png)
-
-微信公众号
-
-![](doc/image/public-account.jpg)
-
-### GitHub
-
-**GitHub**为本人的开源项目主战场，Gitee为从GitHub同步过来的代码。欢迎移步GitHub点击[Star](https://github.com/bootsrc/jseckill/stargazers)并查看本人的更多项目源码
-
-[https://github.com/bootsrc/jseckill](https://github.com/bootsrc/jseckill)
 
