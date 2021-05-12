@@ -16,19 +16,19 @@
 
 ## 介绍
 
-<code>jseckill</code>:Java实现的秒杀网站，基于Spring Boot 2.X。 
+<code>jseckill</code>:based on Spring Boot 2.X。 
 
 <code>jseckill</code>:Seckill website implemented with Java, based on Spring Boot 2.X.
 
 
-效果图
+
 
 ![](doc/image/demo-1.jpg)  &nbsp;&nbsp; ![](doc/image/demo-2.jpg) 
 <br/>
 <br/>
 ![](doc/image/demo-3.jpg)
 
-## 技术栈
+## tech stack
 - Spring Boot 2.X
 - MyBatis
 - Redis, MySQL
